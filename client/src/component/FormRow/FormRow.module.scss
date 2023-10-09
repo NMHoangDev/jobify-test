@@ -1,0 +1,20 @@
+.form-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  input {
+    font-size: 12px;
+    border-color: #a6d5f3;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 4px 6px;
+    width: 300px;
+    justify-self: start;
+  }
+}
+
+.form-label {
+  margin-right: 40px;
+  justify-self: center;
+}

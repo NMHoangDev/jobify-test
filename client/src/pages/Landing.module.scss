@@ -1,0 +1,47 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.logo {
+   margin-bottom: 39px;
+}
+.container-page {
+    display: flex;
+    width: 1000px;
+    height: 400px;
+}
+.info {
+    
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+   
+   h1 {
+    padding-bottom: 30px;
+   }
+
+   span {
+        color: #2cb1bc;
+    }
+    p {
+    padding-bottom: 30px;
+
+    }
+    button {
+        margin-bottom: 10px;
+        width: 350px;
+        &:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+    }
+
+} 
+.img {
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    margin-bottom: 500px;
+}

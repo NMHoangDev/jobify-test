@@ -1,0 +1,42 @@
+.wrapper {
+  border-top: solid 5px;
+  border-color: #2b86c0;
+  border-radius: 5px;
+  width: 450px;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: var(--primary);
+  }
+}
+.logo {
+}
+.btn-submit {
+  margin-top: 40px;
+
+  width: 100%;
+}
+.pargh {
+  display: flex;
+  margin-left: 30%;
+  margin-top: 20px;
+  span {
+    width: fit-content;
+    margin: 0;
+  }
+}
